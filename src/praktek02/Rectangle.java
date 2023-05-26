@@ -4,10 +4,16 @@ public class Rectangle {
     double panjang;
     double lebar;
 
-     Void cetakInfo(){
+     void cetakInfo(){
          System.out.println("=========================");
          System.out.println("Panjang : " + panjang);
          System.out.println("Lebar :" + lebar);
          System.out.println("=========================");
+     }
+
+     double hitunganLuas(){
+         double luas;
+         luas=panjang*lebar;
+         return luas;
      }
 }
