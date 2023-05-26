@@ -8,7 +8,7 @@ public class Rectangle {
         panjang=5;
         lebar=2;
     }
-    public Rectangle ( double panjang, doubel lebar){
+    public Rectangle ( double panjang, double lebar){
         this.panjang = panjang;
         this.lebar = lebar;
     }
